@@ -12,6 +12,38 @@
   align-items: center;
 }
 
+.header {
+    position: relative;
+    display: table;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 1px 1px 2px #ddd;
+}
+
+.header .brand {
+    display: block;
+    float: left;
+}
+
+.header .brand a {
+    padding: 2px auto;
+}
+
+header .menubar {
+    float: right;
+}
+
+.menubar .menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menubar .menu-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
 .footer {
   display: flex;
   flex: 1;
